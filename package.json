@@ -1,0 +1,22 @@
+{
+  "name": "proplan-eu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "proplan-eu",
+  "author": "Nazarii Lysak",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "NODE_TLS_REJECT_UNAUTHORIZED=0 gatsby develop -H 172.24.251.27",
+    "start": "NODE_TLS_REJECT_UNAUTHORIZED=0 gatsby develop -H 172.24.255.255",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^5.13.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
